@@ -45,6 +45,7 @@ Display block takes a new line and will span the width of the page. Inline will 
 Content, padding, border, margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
 This works on the cross axis, which is by default the vertical axis.
 
 5. Explain why git is valuable to a team of developers.
@@ -63,7 +64,7 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
