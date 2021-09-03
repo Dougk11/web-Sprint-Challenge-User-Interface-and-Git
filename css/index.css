@@ -55,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 h1, h2, h3, h4, h5 {
@@ -176,9 +177,9 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -188,3 +189,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About me */
+
+/*Empty container image*/
+
+.skyline-image {
+    padding: 6%;
+    width: 65%;
+    margin: 2% auto;
+    background-repeat: no-repeat;
+    background: url("../img/jumbo-about.png")
+}
+
+/*About section*/
+
+.about-section {
+    padding:0 2% 2% 2%;
+    border-bottom: 1px dashed black;
+    width: 63%;
+    margin: 0 auto;
+}
+
+.learn-more {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2% 20% 0 20%;
+    justify-content: space-around;
+    
+}
+
+.learn-more div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px black dotted;
+    padding-bottom: 2.5%;
+    margin-bottom: 3%;
+    
+}
+
+.learn-more img {
+    margin-bottom: 3%;
+}
+
+.learn-more p {
+    margin-bottom: 7%;
+}
+
+.learn-more a {
+    align-self: flex-start;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2.5%;
+}
+
